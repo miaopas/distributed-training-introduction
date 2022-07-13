@@ -10,9 +10,6 @@ def f(name,):
     time.sleep(20000)
 
 
-
-
-
 print(f'Main have pid:{os.getpid()}')
 p1 = multiprocessing.Process(target=f, args=('p1',))
 
